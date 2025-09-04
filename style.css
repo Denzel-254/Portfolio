@@ -179,3 +179,78 @@ button:hover {
 .about .content .pp {
     margin-bottom: 60px;
 }
+
+.projects {
+    color: white;
+}
+
+.projects h1 {
+    background-color: grey;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 120px;
+    padding: 10px;
+    font-family: britny;
+
+}
+
+.content {
+
+    text-align: center;
+    margin-top: 50px;
+
+}
+
+.projects .content h2 {
+    color: cyan;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.projects .content p {
+    margin-bottom: 50px;
+}
+
+.projects .containerr {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.projects .containerr .box {
+    background-color: grey;
+    text-align: center;
+    overflow: hidden;
+    margin-bottom: 90px;
+    border-radius: 10px;
+    padding-bottom: 20px;
+    border: 2px solid cyan;
+
+
+}
+
+
+
+.projects .containerr .box p {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.projects .containerr .box h2 {
+    margin-top: 5px;
+}
+
+.projects .containerr .box img {
+    border: 4px solid white;
+    border-radius: 10px;
+    transition: .3s ease;
+
+}
+
+.projects .containerr .box img:hover {
+    transition: .3s ease;
+    transform: scale(1.1);
+
+}
